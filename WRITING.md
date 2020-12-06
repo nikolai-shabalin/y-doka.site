@@ -74,7 +74,7 @@
 
 3. Блоки, на которые стоит обратить внимание — выделяем.
 
-    ![Пример блоков с выделением](./src/assets/images/docs/writing)
+    ![Пример блоков с выделением](https://github.com/Y-Doka/y-doka.site/blob/feature/writing.md/src/assets/images/docs/writing/callouts.png)
 
     А сделать это можно так:
 
