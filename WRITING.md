@@ -113,5 +113,5 @@
     Если, всё же, использовали HTML, оставьте до и после него пустую строку. Это нужно, чтобы 11ty смог скомпилировать страницу ниже этого кода. 
 
 7. Для картинок указываем альтернативные описания
-8. Если нужен пример кода, используем [БЭМ](https://ru.bem.info/) и [AirBnB Code Style Guide](https://github.com/airbnb/javascript)
+8. Если нужен пример кода, то для HTML и CSS используем [БЭМ](https://ru.bem.info/), а для JavaScript — [AirBnB Code Style Guide](https://github.com/airbnb/javascript)
 9. Если нужны эмодзи, используем. [Можно взять отсюда](https://ru.piliapp.com/emoji/list/).
