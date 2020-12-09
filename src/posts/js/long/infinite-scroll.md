@@ -128,20 +128,20 @@ const post = {
 // Метод posts возвращает Promise, имитируя асинхронное общение
 // между клиентом и сервером («запрос/ответ»).
 const server = {
-  // Аргумент current — курсор, номер текущей страницы.
+  // Аргумент page — курсор, номер страницы, которую надо загрузить.
   // С этим номером мы определяем, какую порцию контента отправить.
   // В нашем примере порции отличаться не будут, но в жизни
   // курсор бы влиял на то, какой диапазон постов сервер бы доставал из БД.
-  posts(current = 1) {
+  posts(page = 1) {
     // В нашем случае, если текущая страница — 5-я,
     // мы считаем, что контент закончился.
-    const finished = current >= 5
+    const finished = page >= 5
 
     // Иначе сервер отправляет курсор next.
     // Он указывает, какая страница будет по счёту следующей.
     // Так клиент будет знать, стоит ли ему отправлять запрос
     // за новой порцией контента.
-    const next = finished ? null : current + 1
+    const next = finished ? null : page + 1
 
     // В качестве постов отправляем массив из 5 объектов post.
     const posts = Array(5).fill(post)
@@ -303,7 +303,7 @@ function throttle(callee, timeout) {
 
 ```js
 async function fetchPosts() {
-  const { posts, next } = await server.posts(currentPage)
+  const { posts, next } = await server.posts(nextPage)
   // Делаем что-то с posts и next.
 }
 ```
@@ -387,7 +387,7 @@ function composePost(postData) {
 
 ```js
 async function fetchPosts() {
-  const { posts, next } = await server.posts(currentPage)
+  const { posts, next } = await server.posts(nextPage)
   posts.foreach(appendPost)
 }
 ```
@@ -402,7 +402,7 @@ async function fetchPosts() {
 
 ```js
 // Следит за текущей страницей:
-let currentPage = 1
+let nextPage = 1
 
 // Если мы отправили запрос,
 // но ещё не получили ответ,
@@ -429,13 +429,13 @@ async function fetchPosts() {
   // в следующий раз, пока не закончится этот.
   isLoading = true
 
-  const { posts, next } = await server.posts(currentPage)
+  const { posts, next } = await server.posts(nextPage)
   posts.forEach(appendPost)
 
   // Обновляем текущую страницу,
   // эту переменную мы используем в запросах к серверу
   // в качестве курсора.
-  currentPage = page
+  nextPage = page
 
   // Если мы увидели, что контент закончился,
   // отмечаем, что больше запрашивать ничего не надо.
