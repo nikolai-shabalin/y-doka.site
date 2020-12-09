@@ -6,6 +6,10 @@ co-authors:
 designers:
 contributors:
 summary:
+  - scroll
+  - resize
+  - lazy
+  - прокрутка
 ---
 
 ## Кратко
@@ -231,6 +235,4 @@ window.addEventListener("resize", optimizedHandler)
 
 Используйте `throttle`, когда вам нужно вызывать функцию раз в какое-то количество времени, пропуская вызовы между.
 
-Для некоторых задач лучше подойдёт `debounce` — например, для строки поиска, которая предлагает варианты запросов.
-
-[Debounce. Форма поиска](/posts/js/long/debounce)
+Для некоторых задач лучше подойдёт `debounce` — например, для [строки поиска, которая предлагает варианты запросов](/posts/js/long/debounce).
