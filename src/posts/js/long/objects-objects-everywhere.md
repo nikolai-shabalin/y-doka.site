@@ -128,11 +128,11 @@ cats.someField = "value" // добавлось поле
 console.dir(cats)
 /*
 {
-	0: "Boris",
-	1: "Vasya",
-	2: "Murzik",
-	someField: "value",
-	length: 5
+  0: "Boris",
+  1: "Vasya",
+  2: "Murzik",
+  someField: "value",
+  length: 5
 }
 */
 
