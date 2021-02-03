@@ -260,7 +260,7 @@ Set-Cookie: key=value; HttpOnly
         или даже с конкретным запросом для каждого пользователя.
         Злоумышленнику незивестно, по какому принципу токен был сгенерирован,
         поэтому и подделать его у него гораздо меньше шансов. -->
-  <input type="hidden" name="CSRF" value="token-generated-by-server" />
+  <input type="hidden" name="CSRF" value="token-generated-by-server">
 
   <!-- ...Остальная форма -->
 </form>

@@ -41,7 +41,7 @@ summary:
       чтобы браузеры делали дополнительную магию
       с автозаполнением и подходящими кнопками
       на телефонных клавиатурах. -->
-  <input type="search" name="query" placeholder="Margherita" />
+  <input type="search" name="query" placeholder="Margherita">
 
   <!-- У кнопки тип проставлять необязательно,
       так как submit — это тип кнопки по умолчанию. -->

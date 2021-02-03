@@ -36,7 +36,7 @@ summary:
       placeholder="Elon Musk"
       required
       autofocus
-    />
+    >
   </label>
 
   <!-- Спрашиваем почту, чтобы знать, куда это письмо слать. -->
@@ -48,13 +48,13 @@ summary:
       id="email"
       placeholder="elon@musk.com"
       required
-    />
+    >
   </label>
 
   <!-- Возраст — нужны только молодые, сорри. -->
   <label>
     Age:
-    <input type="number" name="age" required />
+    <input type="number" name="age" required>
   </label>
 
   <!-- Инженеры и учёные пригодятся для основной работы;
@@ -73,13 +73,13 @@ summary:
   <!-- Если человек работал в NASA — это большой плюс. -->
   <label>
     I worked in NASA
-    <input type="checkbox" name="nasaExperience" value="1" />
+    <input type="checkbox" name="nasaExperience" value="1">
   </label>
 
   <!-- Фотография нужна для прессы. -->
   <label>
     Photo:
-    <input type="file" accept="image/jpeg" name="photo" required />
+    <input type="file" accept="image/jpeg" name="photo" required>
   </label>
 
   <button type="submit">Apply to the mission</button>

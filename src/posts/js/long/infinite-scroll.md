@@ -67,7 +67,7 @@ _Пагинатор_ — элемент интерфейса, который п�
 Их и сейчас можно встретить, например, на Google.com:
 
 <figure>
-  <img src="/assets/images/posts/js/infinite-scroll/paginator.png"/>
+  <img src="/assets/images/posts/js/infinite-scroll/paginator.png" width="788" height="186">
   <figcaption>Пример пагинатора</figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ _Бесконечный скрол_ — это приём, когда при п�
 Сейчас Switter выглядит как лента со свитами и пагинатор внизу.
 
 <figure>
-  <img src="/assets/images/posts/js/infinite-scroll/switter.jpg"/>
+  <img src="/assets/images/posts/js/infinite-scroll/switter.jpg" width="776" height="506">
   <figcaption>Switter сейчас</figcaption>
 </figure>
 
@@ -202,7 +202,7 @@ const response = await server.posts()
 Из этой вёрстки мы сделаем шаблон для будущих свитов, которые мы будем загружать с сервера. Шаблон нужен, потому что с сервера мы будем загружать только данные. Как эти данные должны отображаться, сервер не знает. Шаблон будет нужен именно для этого — чтобы браузер мог правильно отобразить данные на странице.
 
 <figure>
-  <img src="/assets/images/posts/js/infinite-scroll/data-template.jpg">
+  <img src="/assets/images/posts/js/infinite-scroll/data-template.jpg" width="1088" height="613">
   <figcaption>Данные с сервера будут заполнять шаблон, в итоге получится компонент свита</figcaption>
 </figure>
 
@@ -257,7 +257,7 @@ function checkPosition() {
 ```
 
 <figure>
-  <img src="/assets/images/posts/js/infinite-scroll/position-tracking.jpg">
+  <img src="/assets/images/posts/js/infinite-scroll/position-tracking.jpg" width="522" height="646">
   <figcaption>Когда мы докрутим и пересечём порог, отправим запрос за новой порцией контента</figcaption>
 </figure>
 
@@ -380,7 +380,7 @@ function composePost(postData) {
 ```
 
 <figure>
-  <img src="/assets/images/posts/js/infinite-scroll/fetch-inject.jpg">
+  <img src="/assets/images/posts/js/infinite-scroll/fetch-inject.jpg" width="562" height="432">
   <figcaption>Представить это можно как цепочку событий: запрашиваем данные, получаем ответ, для каждого поста наполняем шаблон данными, получившиеся элементы встраиваем на страницу</figcaption>
 </figure>
 

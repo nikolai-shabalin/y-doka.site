@@ -34,11 +34,11 @@ summary:
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="/style.css" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
-    <img src="/hello.jpg" alt="Привет!" />
+    <img src="/hello.jpg" alt="Привет!">
     <script src="/index.js"></script>
   </body>
 </html>
@@ -66,12 +66,12 @@ DOM — это дерево. Корень этого дерева — это э�
 <!-- Для такого документа: -->
 <html>
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>Hello</title>
   </head>
   <body>
     <p class="text">Hello world</p>
-    <img src="/hello.jpg" alt="Привет!" />
+    <img src="/hello.jpg" alt="Привет!">
   </body>
 </html>
 
@@ -107,14 +107,14 @@ const image = document.getElementById("image")
 -->
 <body>
   <script src="script.js"></script>
-  <img src="/hello.jpg" alt="Hello world" id="image" />
+  <img src="/hello.jpg" alt="Hello world" id="image">
 </body>
 
 <!--  2:
       Всё в порядке, изображение найдётся.
 -->
 <body>
-  <img src="/hello.jpg" alt="Hello world" id="image" />
+  <img src="/hello.jpg" alt="Hello world" id="image">
   <script src="script.js"></script>
 </body>
 
@@ -125,7 +125,7 @@ const image = document.getElementById("image")
 -->
 <body>
   <script src="script.js" defer></script>
-  <img src="/hello.jpg" alt="Hello world" id="image" />
+  <img src="/hello.jpg" alt="Hello world" id="image">
 </body>
 ```
 
