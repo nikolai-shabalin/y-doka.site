@@ -8,10 +8,10 @@
     </div>
     <nav class="aside__navigation">
       <details class="aside__item aside__html">
-        <summary class="aside__block-title aside__block-title_html">HTML</summary>
+        <summary class="aside__block-title aside__block-title_html"><span class="asside__subitem-helper">HTML</span></summary>
         {% if collections.htmlLong | length %}
         <details class="aside__subitem aside__html-long aside__long">
-          <summary>Лонгриды</summary>
+          <summary><span class="asside__subitem-helper aside__subitem-length" data-length={{ collections.htmlLong.length }}>Лонгриды</span></summary>
           {% include "../postlists/html/long.njk" %}
         </details>
         {% endif %}
@@ -20,10 +20,10 @@
         </div>
       </details>
       <details class="aside__item aside__css">
-        <summary class="aside__block-title aside__block-title_css">CSS</summary>
+        <summary class="aside__block-title aside__block-title_css"><span class="asside__subitem-helper">CSS</span></summary>
         {% if collections.cssLong | length %}
         <details class="aside__subitem aside__css-long aside__long">
-          <summary>Лонгриды</summary>
+          <summary><span class="asside__subitem-helper aside__subitem-length" data-length={{ collections.cssLong.length }}>Лонгриды</span></summary>
           {% include "../postlists/css/long.njk" %}
         </details>
         {% endif %}
@@ -32,16 +32,16 @@
         </div>
       </details>
       <details class="aside__item aside__js">
-        <summary class="aside__block-title aside__block-title_js">JavaScript</summary>
+        <summary class="aside__block-title aside__block-title_js"><span class="asside__subitem-helper">JavaScript</span></summary>
         {% if collections.jsLong | length %}
         <details class="aside__subitem aside__js-long aside__long">
-          <summary>Лонгриды</summary>
+          <summary><span class="asside__subitem-helper aside__subitem-length" data-length={{ collections.jsLong.length }}>Лонгриды</span></summary>
           {% include "../postlists/js/long.njk" %}
         </details>
         {% endif %}
         {% if collections.jsTools | length %}
         <details class="aside__subitem aside__js-tools aside__tools">
-          <summary>Инструменты</summary>
+          <summary><span class="asside__subitem-helper aside__subitem-length" data-length={{ collections.jsTools.length }}>Инструменты</span></summary>
           {% include "../postlists/js/tools.njk" %}
         </details>
         {% endif %}

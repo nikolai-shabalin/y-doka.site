@@ -71,6 +71,8 @@
 
   &__search {
     width: 90%;
+    font-size: 3em;
+    line-height: 1.2;
 
     &_suggestion {
       display: flex;
@@ -87,16 +89,16 @@
   &__search-suggestions.search__suggestions {
     position: absolute;
     width: 100%;
+    font-size: 0.5em;
     background: $white;
     box-shadow: 0 0 20px rgba(158, 158, 158, 0.2);
     border-radius: 3px;
   }
 
   &__search-toggler {
-    padding: 2px 10px;
+    padding: 0.125em 0.625em;
     border: transparent 1px solid;
-    border-radius: 18px;
-    font-size: 14px;
+    font-size: 0.29em;
     line-height: 1.67;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -106,9 +108,9 @@
     user-select: none;
 
     &_active {
-      padding: 2px 20px 2px 10px;
+      padding: 0.125em 1.25em 0.125em 0.625em;
       background: $black;
-      border-radius: 18px;
+      border-radius: 1.125em;
       color: $white;
       position: relative;
     }
@@ -122,7 +124,7 @@
     }
 
     &__label:not(:last-child) {
-      margin-right: 15px;
+      margin-right: 0.3em;
     }
 
     &__input {
@@ -136,13 +138,13 @@
       &:hover + .mainpage__search-toggler {
         background: transparent;
         border-color: $black;
-        border-radius: 18px;
+        border-radius: 1.125em;
         color: $gray-darkest;
         position: relative;
       }
 
       &:checked + .mainpage__search-toggler {
-        padding-right: 20px;
+        padding-right: 1.25em;
         background: $black;
         color: $white;
         position: relative;
@@ -166,8 +168,6 @@
     width: 100%;
     border: none;
     border-bottom: 1px solid $nb-grey-lightest;
-    font-size: 48px;
-    line-height: 58px;
     color: $gray-darkest;
     transition: border 0.2s;
 

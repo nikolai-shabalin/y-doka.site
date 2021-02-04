@@ -1,6 +1,5 @@
 .search {
   position: relative;
-  margin: 0 0 2rem;
 
   &__container > * {
     width: 100%;
@@ -9,17 +8,19 @@
   &__suggestions {
     &__hidden {
       display: none;
+      overflow: hidden;
     }
 
     position: absolute;
     background: #f7f7f9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: none;
-    padding: 5px 2px;
   }
 
   &__suggestions__item {
     display: block;
+    padding: 2px;
+    font-size: 1em;
   }
 
   &__input {
