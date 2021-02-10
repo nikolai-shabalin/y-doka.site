@@ -98,7 +98,7 @@
 
 3. Выделите блоки, на которые стоит обратить внимание.
 
-    ![Пример блоков с выделением](https://github.com/Y-Doka/y-doka.site/blob/feature/writing.md/src/assets/images/docs/writing/callouts.png)
+    ![Пример блоков с выделением](./src/assets/images/docs/writing/callouts.png)
 
     А сделать это можно так:
 
