@@ -106,7 +106,7 @@ input:valid + .validity-icon::before {
 Но это пока перспективы, а что же можно сделать сейчас? В настоящий момент добиться похожего поведения можно только для полей ввода. При этом нужно выполнить два условия:
 
 - добавить атрибут `placeholder`;
-- использовать псевдокласс [`:placeholder-shown`](/doka/css/placeholder-shown).
+- использовать псевдокласс [`:placeholder-shown`](/css/doka/placeholder-shown).
 
 ```html
 <form>
