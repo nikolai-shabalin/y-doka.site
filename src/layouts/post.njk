@@ -2,6 +2,14 @@
 layout: base
 ---
 <article class="article">
+  {% if cover %}
+  <picture>
+    {% if cover.mobile %}
+    <source srcset="{{ cover.mobile }}" media="(max-width: 425px)">
+    {% endif%}
+    <img src="{{ cover.desktop }}" width="900" height="537" class="article__cover-image" alt="{{ cover.alt }}">
+  </picture>
+  {% endif%}
   <div class="article__title">
     <h1>{{ title }}</h1>
     <a href="https://github.com/Y-Doka/y-doka.site/blob/master/{{ page.inputPath }}" class="article__title-edit" target="_blank" title="Редактировать на Github.com">&#9998;</a>
