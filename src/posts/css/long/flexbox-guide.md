@@ -4,8 +4,8 @@ name: flexbox-guide
 author: ABatickaya
 co-authors:
   - furtivite
-designers:
-contributors: skorobaeus
+contributors:
+  - skorobaeus
 tags:
   - sprint-1
   - sprint-4
@@ -30,6 +30,8 @@ summary:
   - flex
   - flex-flow
   - align-content
+cover:
+  desktop: '/assets/images/posts/flexbox-guide/cover.png'
 ---
 
 ## Что это?
