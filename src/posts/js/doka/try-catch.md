@@ -2,13 +2,14 @@
 title: "try-catch"
 name: try-catch
 author: windrushfarer
-co-authors:
-designers:
 contributors:
+  - furtivite
 summary:
   - выбросить ошибку
   - ошибки
   - errors
+cover:
+  desktop: '/assets/images/posts/js/try-catch/cover.png'
 ---
 
 ## Кратко
