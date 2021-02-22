@@ -123,7 +123,7 @@ co-authors:
   - furtivite <!-- ники всех соавторов (дописали "В работе"? Вам сюда)-->
 designers: <!-- ники всех дизайнеров -->
 contributors: <!-- ники всех прочих разработчиков -->
-summary: <!-- теги для работы поиска --> - флексбокс - flexbox - flex-box - флекс-контейнер - флекс-элемент - основная ось - дополнительная ось - justify-content - align-items - justify-self - align-self - order - flex-basis - flex-direction - flex-wrap - flex-shrink - flex-grow - flex - flex-flow - align-content
+summary: <!-- теги для работы поиска --> - флексбокс - flexbox - flex-box - флекс-контейнер - флекс-элемент - основная ось - поперечная ось - justify-content - align-items - justify-self - align-self - order - flex-basis - flex-direction - flex-wrap - flex-shrink - flex-grow - flex - flex-flow - align-content
 ---
 
 <!-- далее обычная статья в markdown -->
