@@ -6,8 +6,7 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
  * @author Lea Verou
  */
 
-code[class*="language-"],
-pre[class*="language-"] {
+pre > code {
   color: #383a42;
   background: none;
   text-shadow: 0 1px white;
@@ -42,15 +41,14 @@ pre[class*="language-"] {
 }
 
 @media print {
-  code[class*="language-"],
-  pre[class*="language-"] {
+  pre > code {
     text-shadow: none;
   }
 }
 
 /* Code blocks */
 
-pre[class*="language-"] {
+pre {
   padding: 1em;
   margin: 0.5em 0;
   overflow: auto;
@@ -174,7 +172,7 @@ pre[class*="language-"] {
   }
 }
 
-pre[class*="language-"].line-numbers {
+pre.line-numbers {
   position: relative;
   padding-left: 3.8em;
   counter-reset: linenumber;
