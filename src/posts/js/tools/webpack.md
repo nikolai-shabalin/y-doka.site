@@ -244,6 +244,7 @@ path.resolve("/foo/bar", "/tmp/file/") // "/tmp/file"
 // Если текущая рабочая директора /home/user
 path.resolve("www", "static_files/png", "../gif/image.gif")
 // "/home/use/www/static_files/gif/image.gif"
+```
 
 - `path.sep` — строка разделителя путей в текущем окружении (`/` или `\`);
 - `path.extname` — функция, которая принимает строку с именем файла и возвращает расширение этого файла.
