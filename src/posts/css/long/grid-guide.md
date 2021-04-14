@@ -2,9 +2,8 @@
 title: "Гайд по grid"
 name: grid-guide
 author: ABatickaya
-co-authors:
-designers:
 contributors:
+  - corocoto
 tags:
   - sprint-4
   - sprint-3

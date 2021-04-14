@@ -2,6 +2,8 @@
 title: "grid-template-areas"
 name: grid-template-areas
 author: ABatickaya
+contributors:
+  - corocoto
 summary:
   - имена областей
   - грид-область

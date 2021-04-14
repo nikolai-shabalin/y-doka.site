@@ -2,6 +2,8 @@
 title: "gap"
 name: gap
 author: ABatickaya
+contributors:
+  - corocoto
 summary:
   - отступы между грид-ячейками
   - шорткат
