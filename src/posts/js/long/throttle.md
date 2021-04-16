@@ -10,6 +10,8 @@ summary:
   - resize
   - lazy
   - прокрутка
+cover:
+  desktop: '/assets/images/posts/js/throttle/cover.png'
 ---
 
 ## Кратко

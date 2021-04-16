@@ -18,6 +18,8 @@ summary:
   - quality
   - jest
   - cypress
+cover:
+  desktop: '/assets/images/posts/js/testing/cover.png'
 ---
 
 ## Кратко
