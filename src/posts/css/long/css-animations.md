@@ -1,5 +1,6 @@
 ---
 title: "CSS-анимации"
+name: css-animations
 author: solarrust
 editor: tachisis
 summary:
